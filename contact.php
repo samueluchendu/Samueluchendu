@@ -3,11 +3,11 @@
 <head>
 
 </head>
-<title>HTML Tutorial</title>
+<title>CONTACT</title>
 <body>
 
 
-  <h2>HTML Forms</h2>
+  <h2>Contact</h2>
 
   <form action="submit.php"  method="POST">
     <label for="fname">First name:</label><br>

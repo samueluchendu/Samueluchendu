@@ -6,15 +6,15 @@ $Gender = $_POST['gender'];
 $description = $_POST['message'];
 
 
-$file = fopen($firstname.rand(01, 10).'.txt', 'w');
+$files = fopen($firstname.rand(01, 10).'.txt', 'w');
 
-fwrite($file, 'My First name is: ' .$firstname.',' ) ;
-fwrite($file, ' My Last name is: ' .$lastname.',' );
-fwrite($file, ' My Email is: ' .$Email.',');
-fwrite($file, ' I am a: ' .$Gender.',' );
-fwrite($file, '  My Description is: ' .$description );
+fwrite($files, 'My First name is: ' .$firstname.',' ) ;
+fwrite($files, ' My Last name is: ' .$lastname.',' );
+fwrite($files, ' My Email is: ' .$Email.',');
+fwrite($files, ' I am a: ' .$Gender.',' );
+fwrite($files, '  My Description is: ' .$description );
 
-fclose($file);
+fclose($files);
 
 echo 'your file have been created';
 
